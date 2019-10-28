@@ -1,0 +1,9 @@
+{
+    "template": "xfrm_resource_wrapper_macros",
+    "description": "Add \"Moderator actions\" to resource wrapper",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:resource_tools_menu:before_footer]-->",
+    "replace": "<xf:if is=\"$resource.canViewModeratorLogs()\">\n\t<a href=\"{{ link('resources/moderator-actions', $resource) }}\" data-xf-click=\"overlay\" class=\"menu-linkRow\">{{ phrase('moderator_actions') }}</a>\n</xf:if>\n\n$0"
+}

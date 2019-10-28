@@ -1,0 +1,25 @@
+{
+    "legacy_addon_id": "",
+    "title": "Resource Manager Moderator Actions",
+    "description": "This add-on allows users with permission to view moderator actions for resources similar to threads.",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "TickTackk",
+    "dev_url": "https://xenforo.com/community/members/ticktackk.90375/",
+    "faq_url": "",
+    "support_url": "https://github.com/ticktackk/XFRMModeratorActionsForXF2/issues",
+    "extra_urls": {
+        "Twitter": "https://twitter.com/t1cktackk"
+    },
+    "require": {
+        "XF": [
+            2001070,
+            "XenForo 2.0.10+"
+        ],
+        "php": [
+            "7.1.0",
+            "PHP 7.1.0+"
+        ]
+    },
+    "icon": "fa-clipboard-list"
+}
